@@ -15,12 +15,34 @@
       "annotation": {
         "title": {
           "en": "Annotation",
-          "ru": "Аннотации",
-          "zh": "标注"
+          "ru": "Аннотации и рецензирование",
+          "zh": "标注与评审"
         }
       }
     },
-    "labels": {},
+    "labels": {
+      "chat": {
+        "title": {
+          "en": "Chat",
+          "ru": "Чат",
+          "zh": "聊天"
+        }
+      },
+      "documents": {
+        "title": {
+          "en": "Documents",
+          "ru": "Документы",
+          "zh": "文档"
+        }
+      },
+      "review": {
+        "title": {
+          "en": "Review",
+          "ru": "Ревью",
+          "zh": "评审"
+        }
+      }
+    },
     "sortKeys": {}
   },
   "plugins": [
@@ -32,9 +54,9 @@
         "zh": "标注"
       },
       "description": {
-        "en": "Annotate chats and documents: mark passages, stack comments and quick replies, and send the whole review as one message.",
-        "ru": "Аннотируйте чаты и документы: выделяйте фрагменты, накапливайте комментарии и быстрые ответы, отправляйте всё ревью одним сообщением.",
-        "zh": "标注聊天和文档：选中片段，累积注释与快捷回复，一次性发送整份评审。"
+        "en": "Annotate chats and documents in DeepSeek Harness: select a passage, add a note, comment or quick reply (yes / no / prove it / what else / think), highlight the text, and send the whole review as one message. Works in the chat and in right-sidebar documents — markdown, code, PDF, Office.",
+        "ru": "Аннотации, заметки и комментарии для чатов и документов DeepSeek Harness: выделяйте фрагменты, ставьте быстрый ответ (да / нет / докажи / ещё / подумать) или свой комментарий, подсвечивайте текст и отправляйте всё ревью одним сообщением. Работает в чате и в документах правой панели — markdown, код, PDF, Office.",
+        "zh": "为 DeepSeek Harness 的聊天和文档添加标注、笔记和评论：选中片段，添加快捷回复（是 / 否 / 证明 / 还有 / 再想想）或自己的评论，高亮文本，并一次性发送整份评审。支持右侧面板中的 markdown、代码、PDF 和 Office。"
       },
       "icon": "https://raw.githubusercontent.com/walorne/dsh-annotate-it/main/icon.svg",
       "author": "dsh-annotate-it contributors",
@@ -47,14 +69,33 @@
         "keywords": [
           "annotate",
           "annotation",
+          "annotations",
           "note",
+          "notes",
+          "comment",
+          "comments",
           "review",
           "quote",
-          "comment",
+          "quotes",
           "highlight",
-          "document"
+          "mark",
+          "markup",
+          "document",
+          "documents",
+          "chat",
+          "markdown",
+          "code",
+          "pdf",
+          "office",
+          "citation",
+          "select",
+          "passage"
         ],
-        "labels": [],
+        "labels": [
+          "chat",
+          "documents",
+          "review"
+        ],
         "sortKeys": {}
       },
       "versions": [
