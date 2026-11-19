@@ -1,14 +1,14 @@
 {
   "format": 1,
   "title": {
-    "en": "Pastakhov's DSH plugins",
-    "ru": "Плагины DSH от Pastakhov",
-    "zh": "Pastakhov 的 DSH 插件"
+    "en": "DSH plugins",
+    "ru": "Плагины DSH",
+    "zh": "DSH 插件"
   },
   "description": {
-    "en": "Hand-built plugins for DeepSeek Harness.",
-    "ru": "Самодельные плагины для DeepSeek Harness.",
-    "zh": "为 DeepSeek Harness 手工制作的插件。"
+    "en": "Plugins for DeepSeek Harness.",
+    "ru": "Плагины для DeepSeek Harness.",
+    "zh": "为 DeepSeek Harness 的插件。"
   },
   "metadata": {
     "categories": {
