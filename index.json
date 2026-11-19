@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Pastakhov's DSH plugins",
+    "ru": "Плагины DSH от Pastakhov",
+    "zh": "Pastakhov 的 DSH 插件"
+  },
+  "description": {
+    "en": "Hand-built plugins for DeepSeek Harness.",
+    "ru": "Самодельные плагины для DeepSeek Harness.",
+    "zh": "为 DeepSeek Harness 手工制作的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "annotation": {
+        "title": {
+          "en": "Annotation",
+          "ru": "Аннотации",
+          "zh": "标注"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-annotate-it",
+      "title": {
+        "en": "Annotate it",
+        "ru": "Разметь это",
+        "zh": "标注"
+      },
+      "description": {
+        "en": "Annotate chats and documents: mark passages, stack comments and quick replies, and send the whole review as one message.",
+        "ru": "Аннотируйте чаты и документы: выделяйте фрагменты, накапливайте комментарии и быстрые ответы, отправляйте всё ревью одним сообщением.",
+        "zh": "标注聊天和文档：选中片段，累积注释与快捷回复，一次性发送整份评审。"
+      },
+      "icon": "https://raw.githubusercontent.com/walorne/dsh-annotate-it/main/icon.svg",
+      "author": "dsh-annotate-it contributors",
+      "homepage": "https://github.com/walorne/dsh-annotate-it",
+      "repository": {
+        "url": "https://github.com/walorne/dsh-annotate-it"
+      },
+      "metadata": {
+        "category": "annotation",
+        "keywords": [
+          "annotate",
+          "annotation",
+          "note",
+          "review",
+          "quote",
+          "comment",
+          "highlight",
+          "document"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.5.7",
+          "publishTimestamp": 1795067867,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/walorne/dsh-annotate-it",
+            "commit": "bad50a6a2a476ba73a30bb0ceaab3116c6277dac"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}
